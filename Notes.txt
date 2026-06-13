@@ -1,0 +1,12 @@
+Objective: Predict whether an aircraft engine requires maintenance based on sensor measurements.
+
+The C-MAPSS dataset contains:
+- Engine ID
+- Operational settings
+- 21 sensor measurements
+- Multiple engine degradation trajectories until failure
+
+Each engine is monitored over time until it fails.
+
+Data : 
+
