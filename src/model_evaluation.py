@@ -20,6 +20,6 @@ def evaluate(y_true, y_pred, label=""):
     if label:
         print(f"  {label}")
     print(f"  RMSE  : {rmse:.4f}")
-    print(f"  Score : {score:.4f}")
+    print(f"  Score : {score:,.4f}")
     print(f"{'='*40}")
     return rmse, score
