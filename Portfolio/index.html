@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic portfolio of a data science student at ENSAI.">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to the top of the portfolio">Portfolio</a>
+    <nav aria-label="Primary navigation">
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#tools">Tools</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-shell" aria-labelledby="profile-name">
+      <div class="hero-copy">
+        <p class="eyebrow" data-profile="eyebrow"></p>
+        <h1 id="profile-name" data-profile="name"></h1>
+        <p class="hero-tagline" data-profile="tagline"></p>
+        <p class="location" data-profile="location"></p>
+        <div class="hero-actions">
+          <a class="button button-primary" data-profile-link="resume" href="#" download>Download CV</a>
+          <a class="text-link" data-profile-link="github" href="#" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="text-link" data-profile-link="linkedin" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-shell content-stack">
+      <section id="education" class="content-section" aria-labelledby="education-title">
+        <div class="section-heading">
+          <p class="eyebrow">01</p>
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="record-list" data-section="education"></div>
+      </section>
+
+      <section id="experience" class="content-section" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">02</p>
+          <h2 id="experience-title">Experience</h2>
+        </div>
+        <div class="record-list" data-section="experience"></div>
+      </section>
+
+      <section id="projects" class="content-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">03</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+        <div class="project-list" data-section="projects"></div>
+      </section>
+
+      <section id="skills" class="content-section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">04</p>
+          <h2 id="skills-title">Skills &amp; languages</h2>
+        </div>
+        <div class="skills-list" data-section="skills"></div>
+      </section>
+
+      <section id="tools" class="content-section" aria-labelledby="tools-title">
+        <div class="section-heading">
+          <p class="eyebrow">05</p>
+          <h2 id="tools-title">Tools &amp; workflow</h2>
+        </div>
+        <div class="tools-grid" data-section="tools"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span data-profile="name"></span>
+    <span data-profile="location"></span>
+  </footer>
+</body>
+</html>

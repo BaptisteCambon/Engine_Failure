@@ -1,0 +1,6 @@
+name,description
+Python ecosystem,"Pandas, NumPy, scikit-learn, and Matplotlib for analysis and modelling."
+R ecosystem,"tidyverse, ggplot2, and survey for reproducible statistical analysis."
+Data platforms,"SQL databases, Tableau, Qlik, Talend, and Power BI for reliable extraction and reporting."
+Interactive analysis,"Streamlit for turning analytical workflows into focused, explorable interfaces."
+Reproducible workflow,"Git and structured notebooks"

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Project details from Baptiste Cambon's data science portfolio.">
+  <title>Project | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="project">
+  <header class="site-header">
+    <a class="brand" href="index.html#home">Portfolio</a>
+    <nav aria-label="Project navigation">
+      <a href="index.html#projects">All projects</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#tools">Tools</a>
+    </nav>
+  </header>
+
+  <main class="project-detail section-shell" data-project-detail>
+    <a class="back-link" href="index.html#projects">Back to projects</a>
+    <div class="project-detail-header">
+      <p class="eyebrow" data-project="type"></p>
+      <h1 data-project="title"></h1>
+      <p class="project-lede" data-project="summary"></p>
+      <div class="project-meta" data-project-meta></div>
+    </div>
+    <div class="project-detail-body">
+      <section class="detail-block">
+        <p class="eyebrow">Context</p>
+        <p data-project="context"></p>
+      </section>
+      <section class="detail-block">
+        <p class="eyebrow">Approach</p>
+        <p data-project="approach"></p>
+      </section>
+      <section class="detail-block">
+        <p class="eyebrow">What I explored</p>
+        <p data-project="exploration"></p>
+      </section>
+      <section class="detail-block">
+        <p class="eyebrow">Takeaways</p>
+        <p data-project="takeaways"></p>
+      </section>
+    </div>
+    <div class="detail-footer">
+      <a class="button button-primary" data-project-link="repository" href="https://github.com/BaptisteCambon/Baptiste_ST3247_Assignment" target="_blank" rel="noreferrer">View repository</a>
+      <a class="text-link" href="index.html#projects">Explore another project</a>
+    </div>
+  </main>
+</body>
+</html>
